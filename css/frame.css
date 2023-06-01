@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'Scratchy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scratchy'), local('AgencyFB-Regular'),
+        url(../font/agency-FBwoff) format('woff'),
+        url(../font/Scratchy.otf) format('truetype');
+}
+
+:root {
+    --white: white;
+    --black: black;
+    --trans: transparent;
+    --beige: #E3E0D7;
+    --brown: #716450;
+    --dark-brown: #231C11;
+    --light-brown: #514B46;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Scratchy';
+    
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+}
