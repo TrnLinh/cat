@@ -14,7 +14,7 @@ var checkbox = document.querySelector("input[name=theme]");
 var loader = document.getElementById("loadingscreen");
 
 window.addEventListener("load", function () {
-  loader.style.opacity = "0";
+  loader.style.opacity = "1";
   timeLoading();
   trans();
 });
